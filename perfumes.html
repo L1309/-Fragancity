@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAGANCITY - PERFUMES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo">
+            <!-- aqui va el logo-->
+        </div>
+        <div class="lista_nav">
+            <ul class="lista">
+                <a class="fragancity" href="index.html">FRAGANCITY</a>
+                <li class="barra"><a href="index.html">INICIO</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="perfumes.html">PERFUMES</a>
+                </li>
+                </li>
+                <li class="barra"><a href="mision.html">MISION Y VISION</a></li>
+                <li class="barra"><a href="contacto.html">CONTACTO</a></li>
+                <i onclick="toggleCart()" class="fa-solid fa-cart-arrow-down"></i>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="main-title">
+                <h1>Perfumes</h1>
+                <button onclick="showPerfumes('damas')" class="add-btn">Perfumes para Damas</button>
+                <button onclick="showPerfumes('hombres')" class="add-btn">Perfumes para Caballeros</button>
+                <button onclick="showPerfumes('damas200')" class="add-btn">Damas Finos</button>
+                <button onclick="showPerfumes('hombres200')" class="add-btn">Perfumes Arabes</button>
+                <button onclick="showPerfumes('estuchedama')" class="add-btn">Estuches Damas</button>
+                <button onclick="showPerfumes('estuchecaballero')" class="add-btn">Estuches Caballeros</button>
+                <button onclick="showAll()" class="add-btn">Mostrar Todos</button>
+            </div>
+
+
+
+            <!-- Productos  -->
+
+            <!-- Perfume damas  -->
+            <div id="damas" class="item-list">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="sources/imagenes/perf1.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Pure Extreme Nectar</p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p>Los best sellers femeninos de M.Micallef están ahora disponibles en versiones concentradas. Sus composiciones más características se acentúan y sus facetas cautivadoras se magnifican, ofreciendo una firma olfativa de una intensidad sin precedentes. El lujo absoluto de la perfumería de alta gama.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumedama1.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Idôle Le Parfum by Lancôme </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p>Para todas aquellas mujeres pioneras, fuertes y optimistas, que sueñan a lo grande. Para las que creen que el cielo nunca es el límite y abren nuevos horizontes. Para todas aquellas mujeres que son su propio ídolo, que superan sus propios límites y crean el mundo del mañana. El momento es ahora. Sé tu propio ídolo.
+                            .</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumedama2.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Yves Saint Laurent Libre Eau De Parfum </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p> LIBRE Eau de Parfum es la nueva fragancia de Yves SaintLaurentparalamujer fuerte, atrevida y audaz que vive según suspropiasreglas.Siempre al límite. Experimentando. Rompiendo fronteras.LIBRErepresentala voz de la libertad; una forma de ser, de saber cómodecirno;denoesconderte y ser siempre fiel a vos misma.</p>
+                    </div>
+                </div>      
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumedama3.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name"> The Only One Eau de Parfum</p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p>The Only One captura la esencia de la feminidad sofisticada e hipnotizante.
+                            La marca personal de The Only One reside en la sorprendente combinación de violeta y café, dando lugar a un encantador aroma floral. Como la mujer que representa, la fragancia es un intrincado juego de opuestos. Es de esta fusión de lo inesperado, una nota mocha violeta, de la que obtiene su atractivo. </p>
+                    </div>
+                </div>  
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfume.dama4.webp" alt="Perfume Damas 1">
+                        <p class ="item-name"> Lancôme La Vie Est Belle Eau De Parfum
+                        </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p> La Vie Est Belle es un eau de parfum que celebra la feminidad y la felicidad con ingredientes naturales preciosos como iris, pachulí, praliné y vainilla, creando una fragancia cálida y especiada con un toque gourmand.</p>
+                    </div>
+                </div>  
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfume.dama5.webp" alt="Perfume Damas 1">
+                        <p class ="item-name"> Light Blue Eau de Toilette
+                        </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf1.jpg', 145)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$145.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p>La sensualidad de la piel bañada por los rayos del sol, la estimulante brisa del Mediterráneo y los aromas afrutados y florales emanados por la vegetación se unen en Dolce&Gabbana Light Blue, que capta la ligereza de un día transcurrido disfrutando del sonido de las olas al romper en las rocas de la isla de Capri. Las jugosas notas del limón siciliano y la crujiente manzana Granny Smith se funden con la elegante sencillez de la campanilla y juntas evocan, en Dolce&Gabbana Light Blue Eau de Toilette, la esencia del verano mediterráneo.
+
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <!-- Perfume damas finos -->
+            <div id="damas200" class="item-list">
+                <div id="damas200" class="item">
+                    <div class="item-img">
+                        <img src="sources/imagenes/perf2.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">ADvent calendar Ylang in Gold</p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf2.jpg', 350)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$355.00</p>
+                            <p class = "old-price">$460.00</p>
+                        </div>
+                        <p>En la parte superior de esta majestuosa caja en forma de botella se esconde un Néctar Ylang de Oro de 75 ml. La acompañan 23 compartimentos que albergan elegantes frascos de 10 ml de las eaux de parfums & Nectars insignia de M.Micallef.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="sources/imagenes/perf3.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">O Femini 100ML</p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/perf3.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Este eau de parfum chispeante, dulce y floral sublima una flor de azahar excepcional. Sensual, carnal, calmante y moderna, esta fragancia chic y bohemia con el lema "La dulzura es la fuerza" es una golosina floral adictiva para todas las estaciones.</p>
+                    </div>
+                </div>
+
+                
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino.webp" alt="Perfume Damas 1">
+                        <p class ="item-name">Chanel Chance Eau De Parfum Fragancia</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino.webp', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$180.00</p>
+                            <p class = "old-price">$200.00</p>
+                        </div>
+                        <p>¡Fragancia radiante y femenina!
+
+                            El absoluto de jazmín se combina con la esencia de rosa en una fragancia aún más femenina y luminosa.
+                            
+                            Delicadamente poética, evoca a una mujer que desprende alegría y luz como su encanto único.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino2.webp" alt="Perfume Damas 1">
+                        <p class ="item-name">Tom Ford Lost Cherry Eau de Parfum</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino2.webp', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$280.00</p>
+                            <p class = "old-price">$395.00</p>
+                        </div>
+                        <p>Tom Ford Perfume, Lost Cherry Eau de Parfum; Mezcla la cereza negra con el licor de cereza y un toque provocativo de almendra amarga, estallando en oleadas de dulzura y acidez. Las opulentas notas florales de rosa turca y jazmín sambac se mezclan inesperadamente con sándalo, vetiver y cedro. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino3.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Rose The One Dolce&Gabbana</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino3.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$175.00</p>
+                            <p class = "old-price">$190.00</p>
+                        </div>
+                        <p>Para la mujer Rose The One de Dolce & Gabbana, una vida sin intriga romántica sería una vida sin sentido, así su esencia abre el oculto tesoro de las más preciadas memorias.
+
+                            La esencia es estimulante y rebosa ganas de vivir, sin renunciar al famoso magnetismo de seducción del anterior The One.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino4.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Flowerbomb Swarovski  Viktor&Rolf</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino4.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Flowerbomb Swarovski Edition 2013 de Viktor&Rolf es una fragancia de la familia olfativa Ámbar Floral para Mujeres. Flowerbomb Swarovski Edition 2013 se lanzó en 2013. Las Notas de Salida son bergamota, hojas de té y osmanto (olivo oloroso); las Notas de Corazón son rosa, jazmín, fresia, orquídea y flor de azahar del naranjo; las Notas de Fondo son almizcle y pachulí.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino5.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Cristal Royal Passion by Princesse Marina de Bourbon » Reviews & Perfume Facts
+                        </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino5.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Cristal Royal Rose de Princesse Marina De Bourbon es una fragancia floral frutal para mujer. Cristal Royal Rose se lanzó en 2017. Las Notas de Salida son rosa, limón y pera; las Notas de Corazón son melocotón, fresia y violeta; las Notas de Fondo son almizcle, ambroxan y cedro.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino6.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Insolence Eau de Parfum Guerlain </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino6.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Esta fragancia revela 3 facetas de la feminidad insolente. Refleja un cuidado espíritu libre, una sonrisa sin miedo, una gracia casual. Notas altas de destellos de bayas rojas: brillantes y espumosas..
+                            Notas medias de violetas chispeantes: Extrovertida y encantadora. Notas base de rayos de lírio: radiantes y sensuales..
+                            </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino7.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Miss Dior Absolutely Blooming Edp Spray</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino7.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Perfume Femenino Floral Frutal. Miss Dior Absolutely Blooming Dior Eau de Parfum tiene un aroma llamativo y sensual, sus notas frescas aportan diversión y luminosidad.
+                            Miss Dior Absolutely Blooming Dior Eau de Parfum es una composición única, en la que brillan la pareja Rose de Grasse y Rose Damascena y la sensual Peonía.
+                            </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino8.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Yves Saint Laurent, YSL, Black Opium Eau de Parfum Mujer, EDP 90 ml </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino8.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p> LA INSPIRACIÓN Una interpretación moderna, joven y vibrante de la adicción. BLACK OPIUM, una fragancia como una inyección de adrenalina, la energía necesaria para una vida cada vez más intensa. LA PERSONALIDAD Asertiva y única, la mujer BLACK OPIUM encarna el nuevo espíritu de Yves Saint Laurent.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino9.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Orchid Soleil Tom Ford perfume - a fragrance for women  </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino9.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p> Tom Ford Orchid Soleil ilumina la obsesión original de Tom Ford con la elusiva Orquídea Negra. Una fuerza radiante y sensual de la naturaleza, el nuevo aroma captura la calidez seductora y la piel desnuda reflectante de la mujer Tom Ford en su brillante floración</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumefino10.jpg" alt="Perfume Damas 1">
+                        <p class ="item-name">Perfume Coco Mademoiselle para Mujer de Chanel EDP 100ML
+                        </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumefino10.jpg', 250)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$250.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p>Coco Mademoiselle de Chanel, una exquisita fragancia de la familia olfativa Ámbar Floral para mujeres, es la elección perfecta para quienes desean cautivar con su encanto. Lanzada en 2001 por el renombrado perfumista Jacques Polge, esta fragancia se ha convertido en un clásico moderno y una de las favoritas de las mujeres en todo el mundo.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Perfume caballeros -->
+
+            <div id="hombres" class="item-list">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Creed Aventus Eau De Parfum
+                        </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre.webp', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$350.00</p>
+                            <p class = "old-price">$400.00</p>
+                        </div>
+                        <p>Aventus es el aroma más aclamado en la historia de Creed. Una fragancia contemporánea que celebra la fuerza, el poder, la visión y el éxito y es la fragancia ideal para un hombre sofisticado y moderno que disfruta de una vida bien vivida. Sus notas altas son, limón, pimienta rosa, manzana, bergamota y grosella negra; Notas de corazón, piña, jazmín, pachulí; Notas de base, abedul, ámbar gris, madera de cedro, musgo de roble y almizcle
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre2.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">Giorgio Armani Acqua Di Gio Profumo Eau De Parfum </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre2.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$170.00</p>
+                            <p class = "old-price">$180.00</p>
+                        </div>
+                        <p>ACQUA DI GIÒ PROFUMO de Giorgio Armani es un “Eau de Parfum” para hombre que se incluye en la familia Aromática Acuática. Se trata de una reedición del clásico Acqua Di Giò que celebra sus 20 años de vida, éxitos y logros. Una combinación perfecta entre la roca volcánica y las aguas del océano que aviva nuestros sentidos y nos trasporta a la naturaleza más salvaje.  </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre3.webp" alt="Perfume Damas 2">
+                        <p class ="item-name"> Tom Ford Costa Azzurra Eau de Parfum</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre3.webp', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$245.00</p>
+                            <p class = "old-price">$260.00</p>
+                        </div>
+                        <p>Esta fragancia aromática amaderada tiene una mezcla de vainilla, vetyver, roble, masilla, olibanum, artemisia, ciprés, mandarina amarilla, mirto, limón, lavanda, semillas de ambrette, apio, malva almizclera, cardamomo, madera de agar, maderas y algas marinas
+                            Te mantiene refrescante todo el día </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre4.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">Tom Ford Orquídea Negro Eau de Parfum para Hombre</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre4.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$225.00</p>
+                            <p class = "old-price">$245.00</p>
+                        </div>
+                        <p> Tom Ford Orquídea Negra es conocido por su aroma profundo, oscuro y sensual. La fragancia es opulenta y clásicamente oscura, con una combinación intrigante de ingredientes que la hacen distintiva y memorable. Es ideal para ocasiones especiales y para quienes buscan un perfume con un carácter fuerte y duradero..</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre5.webp" alt="Perfume Damas 2">
+                        <p class ="item-name"> Viktor & Rolf Spicebomb Pour Homme Eau de Toilette</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre5.webp', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$245.00</p>
+                            <p class = "old-price">$255.00</p>
+                        </div>
+                        <p>Spicebomb de Viktor&Rolf es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Spicebomb se lanzó en 2012. La Nariz detrás de esta fragrancia es Olivier Polge. Las Notas de Salida son bergamota, toronja (pomelo), pimienta rosa y elemí; las Notas de Corazón son azafrán, canela y pimentón dulce (paprika); las Notas de Fondo son vetiver, tabaco y cuero. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre6.png" alt="Perfume Damas 2">
+                        <p class ="item-name">Perfume Bvlgari Bvlgari Pour Homme Soir Eau de Toilette Natural  </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre6.png', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$170.00</p>
+                            <p class = "old-price">$180.00</p>
+                        </div>
+                        <p> Bvlgari Pour Homme Soir de Bvlgari es una fragancia de la familia olfativa almizcle amaderado floral para hombres. Bvlgari Pour Homme Soir se lanzó en 2006. La fragrancia contiene notas de papiro de Egipto, ámbar, té de Darjeeling, bergamota, madera de guayaco de Paraguay  y almizcle.   </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre7.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">Issey Miyake Pour Homme L'Eau D'Issey Cedre Eau De Toilette Intense </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre7.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$177.00</p>
+                            <p class = "old-price">$185.00</p>
+                        </div>
+                        <p> L’Eau de Toilette Intense L’Eau d’Issey pour Homme Eau & Cèdre es una fragancia fresca y revitalizante. El agua realza la fuerza de la madera de cedro. Esta Eau de Toilette Intense es un encuentro de los elementos en el que el agua y la madera se fusionan. La frescura del agua contrasta con la sequedad y la vitalidad de la madera de cedro. Perfila y revela la energética esencia de su savia.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre8.avif" alt="Perfume Damas 2">
+                        <p class ="item-name">SAUVAGE EAU DE PARFUM </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre8.avif', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$160.00</p>
+                            <p class = "old-price">$175</p>
+                        </div>
+                        <p>El perfume para hombre Sauvage combina la frescura de una jugosa y especiada nota de bergamota de Calabria con la sensualidad de un misterioso y envolvente acorde de extracto de vainilla de Papúa Nueva Guinea. La fragancia despliega así una estela poderosa y noble. .</p>
+                    </div>
+                </div>
+
+                <div  class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre9.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">Chanel Blue Eau De Parfum</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre9.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$170.00</p>
+                            <p class = "old-price">$180.00</p>
+                        </div>
+                        <p> Inesperado ... Seductora ... Místico ...
+
+                            Un perfume embriagador de la casa Chanel que desafía todas las convenciones y se resiste a las molestias esperadas para que usted encuentre toda la satisfacción en la adrenalina de la sorpresa, de lo inesperado.
+                            
+                            Excitación y misterio para hombres innegablemente seductores
+                            
+                            Bleu de Chanel es una fragancia provocativa que libera los sentidos con profundas notas sensuales en una firma de deseo y determinación.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre10.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name"> Versace Eros Parfum</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre10.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$170.00</p>
+                            <p class = "old-price">$185.00</p>
+                        </div>
+                        <p>Masculino y confiado, Eros Parfum es una fragancia sensual que fusiona notas amaderadas, orientales y frescas, creando un poderoso perfume que evoca a Eros, el dios del amor. "Me imaginé a un hombre heroico y apasionado, casi un dios griego. La fragancia se compone de notas que expresan sensualidad y poder, una fuerza extrema", dice Donatella Versace. Salida, aceite de limón, aceite de mandarina, litsea cubeba, aceite de elemi, aceite de pimienta negra; Corazón, Pomarosa, aceite de geranio, lavanda, aceite de salvia; Base, resina de benjuí, pachulí, vainilla; Familia olfativa, Cítrica, aromática, oriental </p>
+                    </div>
+                </div>
+
+                
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre11.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Givenchy Gentleman Eau De Toilette Intense  </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre11.webp', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$165.00</p>
+                            <p class = "old-price">$175.00</p>
+                        </div>
+                        <p>El fresco lirio azul abraza la madera de cedro en esta fragancia adictivamente estremecedora. Gentleman Eau de Toilette Intense, inspirado en el más gentil de los hombres, rinde homenaje a la personalidad única de Hubert de Givenchy, caracterizada por su confianza y sensibilidad, encapsulando la esencia misma de un caballero.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre12.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Jean Paul Gaultier Le Male Terrible Eau De Toilette Extreme Spray</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre12.webp', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$150.00</p>
+                            <p class = "old-price">$160.00</p>
+                        </div>
+                        <p> Esta fragancia oriental fougère para hombres está creada para atraer una variedad de preferencias aromáticas. Las Notas de Salida son pomelo y pimienta rosa. Las notas medias son lavanda y vetiver. Las notas de fondo son ámbar y vainilla. Un eau de toilette extremo terriblemente fresco, terriblemente masculino y terriblemente sexy que crea un efecto elegante y aventurero.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfumehombre13.jpg" alt="Perfume Damas 2">
+                        <p class ="item-name">Rabanne Invictus Eau de Toilette
+                        </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfumehombre13.jpg', 150)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$88.00</p>
+                            <p class = "old-price">$120.00</p>
+                        </div>
+                        <p>Él es un icono para los Hombres y la fantasía absoluta para las Mujeres. Una fragancia que te hará sentir la adrenalina de la competitividad y el éxtasis de la victoria. Una fragancia fresca sensual en la que el pomelo marino y madera de guayacán se enfrentan. Lo picante contra lo intenso. Dos fuerzas: frescor azotador y calor animal. ¿Quién ganará?. </p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+            <!-- Perfume Arabes -->
+            <div id="hombres200" class="item-list">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe9.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Asad Eau de Parfum for Men </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe1.jpg', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$40.00</p>
+                            <p class = "old-price">$50.00</p>
+                        </div>
+                        <p>Asad es una fragancia de la colección Lattafa. El aroma es una mezcla de notas de ámbar, canela y vainilla, con matices árabes. Un aroma personal y distintivo con un toque oriental para llevar tu experiencia de la vida cotidiana a otro nivel.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe2.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Lattafa Fakhar Lattafa Femme Eau Parfum SP 100ml  </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe2.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$45.00</p>
+                            <p class = "old-price">$60.00</p>
+                        </div>
+                        <p>Fakhar Rose de Lattafa Perfumes es una fragancia de la familia olfativa Floral para Mujeres. Las Notas de Salida son frutas, granada, azucena y aldehídos, Notas de Corazón son nardos, jazmín, gardenia, ylang-ylang, madreselva, peonía y rosa, Notas de Fondo son vainilla, ambroxan, almizcle blanco y sándalo. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/marcarabe7.webp" alt="Perfume Damas 2">
+                        <p class ="item-name"> 9pm Eau De Parfum for men </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe2.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$40.00</p>
+                            <p class = "old-price">$55.00</p>
+                        </div>
+                        <p>9pm" de Afnan es una expresión de masculinidad y elegancia en una botella de 100 ml. Este perfume masculino captura la esencia de la seducción con su mezcla única de notas frutales, especiadas y dulces. Desde el primer momento, la bergamota, la lavanda, la canela y la manzana ofrecen una apertura fresca y estimulante, invitando a descubrir más. El corazón se revela con delicadas notas de muguet y flor de azahar, aportando una sofisticación floral. </p>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe3.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Armaf Club De Nuit EDP for Women </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe3.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$45.00</p>
+                            <p class = "old-price">$65.00</p>
+                        </div>
+                        <p>Deleita tus sentidos con la combinación floral cálida y afrutada de Club De Nuit. Esta fragancia para mujer de la casa Aramaf te envuelve durante todo el día con una sensación de frescura y deleite. La parte superior de esta fresca fragancia presenta notas de bergamota, naranja, melocotón y pomelo. El corazón se abre con una brillante combinación de rosa, litchi, jazmín y geranio. Con aromas amaderados y terrosos de Pachulí, Vetiver, Almizcle y Vainilla, esta fragancia es un verdadero placer. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe4.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">LATTAFA Bade'e Al Oud Amethyst ➔ (Initio Psychedelic Love) ➔ perfume árabe </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe4.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$35.00</p>
+                            <p class = "old-price">$45.00</p>
+                        </div>
+                        <p>Esta fragancia combina pasión y frescura para crear un aroma que inspira y conduce a una aventura romántica.
+
+                            Estas notas altas retroceden para dar paso a notas de corazón de sensuales flores blancas de ylang-ylang, dulce heliotropo y sensual rosa de Damasco. Esta colección de flores crea una imagen romántica y ligeramente nostálgica, como la más bella primavera. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe5.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">ARMAF CLUB DE NUIT UNTOLD EDP / UNISEX </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe5.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$65.00</p>
+                            <p class = "old-price">$75.00</p>
+                        </div>
+                        <p>Armaf Club De Nuit Untold es una fragancia intrigante y seductora que combina notas exóticas y florales con toques cálidos y amaderados. Las notas de azafrán y jazmín se mezclan para crear una apertura brillante y vibrante que evoca una sensación de lujo y sofisticación. A medida que la fragancia evoluciona, las notas de ámbar gris, madera de ámbar y resina de abeto se mezclan para crear un corazón terroso y amaderado que es profundamente seductor y elegante. </p>
+                    </div>
+                </div>
+
+                
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/marcarabe1.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Armaf Club De Nuit Intense Parfum  Hombre </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe6.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$40.00</p>
+                            <p class = "old-price">$50.00</p>
+                        </div>
+                        <p>Club de Nuit Intense Man de Armaf es una fragancia de la familia olfativa Amaderada Especiada para Hombres. Club de Nuit Intense Man se lanzó en 2015. Las Notas de Salida son limón (lima ácida), piña, bergamota, grosellas negras y manzana; las Notas de Corazón son abedul, jazmín y rosa; las Notas de Fondo son almizcle, ámbar gris, pachulí y vainilla.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe7.webp" alt="Perfume Damas 2">
+                        <p class ="item-name">Lattafa Khamrah EDP 100ml</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe7.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$65.00</p>
+                            <p class = "old-price">$85.00</p>
+                        </div>
+                        <p>Khamrah de Lattafa Perfumes es una fragancia aromática picante para mujeres y hombres. Las notas altas son canela, nuez moscada y bergamota. Las notas medias son dátiles, pralino, tuberosa y mahonial. Las notas base son vainilla, haba tonka, benjuí, mirra, ámbar y madera de AkigalawoodAdecuado para uso de noche</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/perfarabe8.webp" alt="Perfume Damas 2">
+                        <p class ="item-name"> Yara EDP for Women</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/perfarabe8.webp', 200)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$35.00</p>
+                            <p class = "old-price">$45.00</p>
+                        </div>
+                        <p>Yara de Lattafa Perfumes es una fragancia de la familia olfativa para Mujeres. Las Notas de Salida son orquídea, heliotropo y naranja tangerina; las Notas de Corazón son Acuerdo goloso y frutas tropicales; las Notas de Fondo son vainilla, almizcle y sándalo.</p>
+                    </div>
+                </div>
+            </div>
+                
+ <!-- Estuches damas  -->
+
+            <div id="estuchedama">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="sources/imagenes/estuche2.jpg" alt="Estuche Damas 1">
+                        <p class ="item-name">MON PARIS ESTUCHE EAU DE PARFUM 90ML + MINI 7,5ML + MINIATURE N°49 </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/estuche2.jpg', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$150.00</p>
+                            <p class = "old-price">$165</p>
+                        </div>
+                        <p>Con el espíritu de una historia de amor apasionada nace Mon Paris. Un nuevo chipre , floral y afrutado, excitante, seductor y, al mismo tiempo, absolutamente arrebatador. Para mujeres que dicen sí al amor sin pudor, que viven una relación apasionada e intensa, rompiendo las normas y los convencionalismos.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer1.avif" alt="Estuche Damas 1">
+                        <p class ="item-name">GIORGIO ARMANI
+                            Sì Estuche EDP</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer1.avif', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$155.00</p>
+                            <p class = "old-price">$165.00</p>
+                        </div>
+                        <p> Sì de Giorgio Armani es la fragancia de la nueva feminidad.
+
+                            El perfume femenino chipre afrutado perfecto para mujeres con actitud y fuerza.
+                            
+                            Sì es la fragancia femenina que permite que cada mujer afirme quien es con la libertad de ser ella misma, exprese sus auténticas pasiones y emociones reivindicando su lugar en el mundo moderno.
+                            
+                            Ideal para mujeres con fuerza que se atreven a decir Sì.
+                            
+                             </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer2.jpg" alt="Estuche Damas 1">
+                        <p class ="item-name">ESTUCHE CAROLINA HERRERA CH PRIVE 2 PZAS DAMA AGUA DE PERFUME 80 ML/ CREMA CORPORAL 100 ML </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer2.jpg', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$170.00</p>
+                            <p class = "old-price">$180.00</p>
+                        </div>
+                        <p>  CH Woman es una fragancia creada para una mujer moderna y segura de si misma que encajaría perfectamente en el Upper East Side de Nueva York. Una fragancia atemporal con un marcado estilo elegante y salpicado por pequeñas notas de pasión. El perfume ofrece una salida brillante y fresca compuesta por una mezcla de aromas cítricos de bergamota, pomelo y limón.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer3.jpg" alt="Estuche Damas 1">
+                        <p class ="item-name"> ESTUCHE ARMAF CLUB DE NUIT WOMAN / D 4 PZS</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer3.jpg', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$70.00</p>
+                            <p class = "old-price">$88.00</p>
+                        </div>
+                        <p>Club De Nuit de Armaf es una fragancia de la familia olfativa Floral Frutal para Mujeres. Las Notas de Salida son naranja, toronja (pomelo), bergamota y durazno (melocotón); las Notas de Corazón son rosa, geranio, jazmín y lichi; las Notas de Fondo son pachulí, vainilla, almizcle y vetiver. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer4.webp" alt="Estuche Damas 1">
+                        <p class ="item-name"> D&G Light Blue EDT Gift Set for Women (2PC)</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer4.webp', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$190.00</p>
+                            <p class = "old-price">$215.00</p>
+                        </div>
+                        <p> Esta fragancia floral afrutada tiene una mezcla de manzana abuela Smith, cedro siciliano, campanillas azules, jazmín, rosa blanca, bambú, madera de cedro, ámbar y notas de almizcles
+                            Es una fragancia duradera
+                            Se recomienda para el uso diario
+                            Te mantiene refrescante todo el día. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer5.avif" alt="Estuche Damas 1">
+                        <p class ="item-name">Estuche de regalo Eau de Parfum San Libre Yves Saint Laurent ·</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer5.avif', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$185.00</p>
+                            <p class = "old-price">$205.00</p>
+                        </div>
+                        <p> El perfume de una mujer fuerte, audaz y libre juega con la tensión entre la sensualidad ardiente del azahar de Marruecos y la audacia de una lavanda de Francia.
+
+                            • Libre Eau de Parfum Body Lotion 50 ml: una loción corporal con la fragancia floral única de Libre. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer6.avif" alt="Estuche Damas 1">
+                        <p class ="item-name">Lancôme
+                            LA NUIT TRÉSOR ESTUCHE</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer6.avif', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$169.00</p>
+                            <p class = "old-price">$185.00</p>
+                        </div>
+                        <p>LA NUIT DE TRÉSOR de Lancôme es un “Eau de Parfum” para mujer que se incluye en la familia Oriental. Es un perfume que representa el amor absoluto, un sentimiento apasionado lleno de pureza.Su especial despertar comienza con notas frutales como bergamota, naranja mandarina y pera, creando un excelente equilibrio entre dulzura y acidez. Luego, un cóctel envolvente de maracuyá, rosa negra, vainilla y fresa orquídea sucumbe a nuestros sentidos creando un aura romántica y de gran sensualidad. Finalmente, su base adquiere un tono más cálido, dulce y apetecible, gracias a la fusión de praliné, vainilla, caramelo y café. </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer7.webp" alt="Estuche Damas 1">
+                        <p class ="item-name">COCO MADEMOISELLE SET</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer7.webp', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$190.00</p>
+                            <p class = "old-price">$245</p>
+                        </div>
+                        <p>Es un perfume atrevido y rebelde pero que desprende sensualidad.
+                            De los que deja huella pero te deja con ganas de más. Suave y atrevido.Se trata de una fragancia oriental  con toques amaderado y ambarino, y una dosis de pachulí realzada por la calidez de un acorde ambarino de absoluto de vainilla y haba tonka.
+                            Un corazón de rosa y jazmín, y el frescor contrastado de los cítricos completan esta poderosa composición».  </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estuchemujer8.jpg" alt="Estuche Damas 1">
+                        <p class ="item-name">CHANEL COCO MADEMOISELLE ESTUCHE EAU DE PARFUM 50 ML Y ACEITE PARA EL CUERPO </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estuchemujer8.jpg', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$235.00</p>
+                            <p class = "old-price">$280.00</p>
+                        </div>
+                        <p> CHANEL crea un estuche que combina COCO MADEMOISELLE Eau de Parfum y COCO MADEMOISELLE L’Huile Corps en un formato exclusivo que recupera las líneas del icónico frasco.
+
+                            Un ritual de perfumado envolvente en un sublime estuche en edición limitada.</p>
+                    </div>
+                </div>
+        </div>
+
+            <!-- Estuches hombres  -->
+
+            <div id="estuchecaballero">
+                <div class="item">
+                    <div class="item-img">
+                        <img src="sources/imagenes/estuches1.jpg" alt="Estuche Damas 1">
+                        <p class ="item-name">Hugo Boss The Scent EDT for Men Gift Set (3PC) </p>
+                        <button class="add-btn" onclick="addToCart('sources/imagenes/estuches1.jpg', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$155.00</p>
+                            <p class = "old-price">$170.00</p>
+                        </div>
+                        <p>Boss The Scent, fragancia masculina
+
+                            Boss-Hugo Boss crea esta nueva fragancia que supone el mayor lanzamiento de la línea de los últimos diez años: The Boss Scent. Una fragancia extremadamente seductora.  Dirigida a un hombre elegante, maduro y que sabe lo que quiere e inspirado en los deseos femeninos. Su aroma es masculino, exótico, estimulante, enérgico y adictivo. Contiene Maninka, una afrodisiaca fruta procedente de Sudámerica, acorde el carácter de la fragancia. </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estucheh1.webp" alt="Estuche Damas 1">
+                        <p class ="item-name">CREED ESTUCHE COLECCIÓN PERFUMES </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estucheh1.webp', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$280.00</p>
+                            <p class = "old-price">$300.00</p>
+                        </div>
+                        <p>ACCESORIOS:
+
+                            Creed Silver Mountain Water de 30 Ml
+                            Creed Aventus de 30 Ml
+                            Creed Green Irish Tweed de 30 Ml .</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estucheh4.jpg.webp" alt="Estuche Damas 1">
+                        <p class ="item-name">ESTUCHE MAN IN BLACK BY BVLGARI EUP SET CABALLERO </p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estucheh1.webp', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$175.00</p>
+                            <p class = "old-price">$195.00</p>
+                        </div>
+                        <p>Mezcla de ámbar, especias, maderas, ron natural. Las notas superiores son vibrantes tabaco picante y las notas de base son benzoína, haba tonka y madera de guaiac..</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="item">
+                    <div class="item-img">
+                        <img src="Perfumes/estucheh6.webp" alt="Estuche Damas 1">
+                        <p class ="item-name"> Estuche para Caballero Giorgio Armani, Acqua Di Giò Edt 100 Ml</p>
+                        <button class="add-btn" onclick="addToCart('Perfumes/estucheh2.avif', 300)">Agregar al Carrito</button>
+                    </div>
+                    <div class = "item-detail">
+                        <div class = "item-price">
+                            <p class = "new-price">$180.00</p>
+                            <p class = "old-price">$200.00</p>
+                        </div>
+                        <p> Acqua di Giò Eau de Toilette es un perfume Cítrico-Acuático para un
+                            hombre masculino, con un delicioso aroma compuesto por bergamota de
+                            calabria, calone y cedro para crear un perfume cuya esencia es
+                            sofisticada, fresca y sensual. Un perfume ideal para usar todos los
+                            días y conectar con tu frescura natural.
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Carrito de compra-->
+    <div id="cart" class="cart">
+        <h2>Carrito Fragancity</h2>
+        <div id="cart-items"></div>
+        <p class="cart-total">Subtotal: $<span id="cart-total">0</span></p>
+        <p class="cart-itbms">ITBMS (7%): $<span id="cart-itbms">0</span></p>
+        <p class="cart-total-itbms">Total: $<span id="cart-total-itbms">0</span></p>
+        <div class="cart-footer">
+            <button onclick="toggleCheckoutForm()" class="btn_cart">Hacer Compra</button>
+            <button onclick="toggleCart()" class="btn_cart">Cerrar Carrito</button>
+
+
+            <div id="checkout-form" class="checkout-form">
+                <h2 class="formulario_text">Formulario de Compra</h2>
+                <form id="purchase-form" onsubmit="submitOrder(event)">
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div>
+                        <label for="address">Dirección:</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div>
+                        <label for="payment-method" class="metodo_pago">Método de Pago:</label>
+                        <select id="payment-method" onchange="toggleCardFields()" required>
+                            <option value="">Seleccione</option>
+                            <option value="cash">Efectivo</option>
+                            <option value="card">Tarjeta</option>
+                        </select>
+                    </div>
+                    <div id="card-fields" style="display: none;">
+                        <div>
+                            <label for="card-number">Número de Tarjeta:</label>
+                            <input type="text" id="card-number" required>
+                        </div>
+                        <div>
+                            <label for="card-expiry">Año Exp:</label>
+                            <input type="text" id="card-expiry" required>
+                        </div>
+                        <div>
+                            <label for="card-cvv">CVV/CVC:</label>
+                            <input type="text" id="card-cvv" required>
+                        </div>
+                    </div>
+                    <button class="confirm_btn" type="submit">Confirmo el Pedido</button>
+                </form>
+                <button class="finish_btn" onclick="finalizeOrder()">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer_fondo">
+        <footer class="footer_bloque">
+            <div>
+                <h4 class="footer_texto">CONTACTENOS</h4>
+                <p>PANAMA, PANAMA CITY, COSTA DEL ESTE</p>
+                <p>fragancity@gmail.com</p>
+                <p>(+507) 5747 23245</p>
+            </div>
+            <div>
+                <h4 class="footer_texto">TIENDA</h4>
+                <p>Inicio</p>
+                <p>Mision</p>
+                <p>Perfumes</p>
+            </div>
+            <div>
+                <h4 class="footer_texto">INFORMACION</h4>
+                <p>Contactenos</p>
+            </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
